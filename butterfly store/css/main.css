@@ -1,0 +1,144 @@
+/*global*/
+body{
+	padding-top: 50px
+}
+
+/*header full*/
+#headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 600px;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#logotext{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/s.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%;
+	margin-top: -90px;
+}
+/*end header full*/
+
+/*start header part*/
+
+#part-headerWrapper{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 210px;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#part-logotext{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/s.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%;
+	margin-top: -90px;
+}
+
+/*end header part*/
+
+/*start content*/
+
+/*start left sidebar*/
+
+input.price-range{
+	width: 55px
+}
+
+/*end left sidebar*/
+
+/*start main content*/
+.img-thumb{
+	width: auto;
+	height: 200px;
+}
+
+/*end main content*/
+
+/*start right sidebar*/
+
+#cart-widget td. #recent td{
+	font-size: 12px
+}
+/*end right sidebar*/
+/*end content*/
+
+/*footer*/
+footer{
+	margin-top: 50px 
+}
+/*footer*/
+
+/* start madal*/
+.fotorama__wrap{
+	width: 90%;
+	margin: 15px auto
+}
+/* end madal*/
+
+/*start total modal*/
+.totals th{
+	text-align: center;
+}
+/*end total modal*/
+
+
+
+/*admin area*/
+
+/*brand page*/
+ 
+.table-auto{
+	width: auto;
+	margin: 20px auto;
+}
+
+/*products page*/
+
+#add-btn{
+	margin-top: -35px
+}
+
+.saved-image{
+	text-align: center 
+}
+
+.saved-image img{
+	width: auto;
+	height: 150px;
+}
+
+/*login page*/
+
+#login-form{
+	width: 50%;
+	height: 60%;
+	border: 2px solid #666;
+	border-radius: 15px;
+	box-shadow: 7px 7px 15px rgba(0, 0, 0, .6);
+	margin: 8% auto;
+	padding: 15px;
+	background-color: #fff
+}
